@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Microfocus test suite">
+
+	<listeners>
+		<listener
+			class-name="com.mfi.qa.testUtilities.ReportGeneration" />
+	</listeners>
+
+	<test name="Microfocus integration Test">
+		<classes>
+			<class name="com.mfi.qa.testCases.TC_HomePage_001" />
+			<class name="com.mfi.qa.testCases.TC_LoginPage_002" />
+		</classes>
+	</test>
+</suite>
